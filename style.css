@@ -2,7 +2,6 @@
 
 body{
   background: rgb(255,255,255);
-  background: url('./assets/bg.png'),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
   overflow-x: hidden;
 }
 .work-sans{
@@ -101,6 +100,7 @@ li{
 .hero{
   margin-top: 200px;
   width: 1366px;
+  background: url('./assets/bg.png'),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
 }
 .hero-box-container{
   max-width: 100%;
@@ -164,6 +164,7 @@ margin-left: 20px;
 }
 .our-stories{
   margin-top: 100px;
+  background: url('./assets/bg.png'),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
 }
 .stories{
   display: flex;
@@ -234,7 +235,7 @@ background-color: rgb(1, 172, 253);
 @media screen and (max-width: 577px) {
   .links, 
   .action-btn
-  .b-box{
+  {
     display: none;
   }
   .logo-h1{
@@ -296,6 +297,9 @@ background-color: rgb(1, 172, 253);
   gap: 20px;
   width: 100%; 
   padding: 0 10px; 
+}
+.b-box{
+  display: none;
 }
   .footer {
     height: auto; 
